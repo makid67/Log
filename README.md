@@ -4,3 +4,5 @@
    É uma plataforma que eu vou registrar e posicionar no meu cotidiano como uma bússola que aponta para várias direções conforme sessões de informações importantes no cotidiano e poderá ser utilizada e modificada pelo público.
 
  <h4>! Aceito sugestões
+
+ <h4>! Todo dia 1º devo por este projeto em BackUp no TeraBox 1TB</h4>
