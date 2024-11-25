@@ -1,18 +1,18 @@
 function [dicionario]=criaDicionario(alfabeto,N)
 %===================================
-% CEFET/RJ - CAMPUS PETRÓPOLIS
-% GRADUAÇÃO EM ENGENHARIA DE COMPUTAÇÃO
-% GCOM1001PE - Introdução à Engenharia
-% PROF. RAFAEL SARAIVA CAMPOS
+% CEFET/RJ - CAMPUS PETRï¿½POLIS
+% GRADUAï¿½ï¿½O EM ENGENHARIA DE COMPUTAï¿½ï¿½O
+% GCOM1001PE - Introduï¿½ï¿½o ï¿½ Engenharia
+% PROF. RAFAEL SARAIVA SubÃ¡reaS
 % SEMESTRE 2022/1 
 %===================================
-% Exemplo de aplicação #4: criptografia simples (cifra do livro)
+% Exemplo de aplicaï¿½ï¿½o #4: criptografia simples (cifra do livro)
 %===================================
-% função criaDicionario
-% parâmetros de entrada
-%   alfabeto - conjunto de caracteres alfanuméricos
-%   N - número de repeticoes de cada caracter
-% parâmetros de saída
+% funï¿½ï¿½o criaDicionario
+% parï¿½metros de entrada
+%   alfabeto - conjunto de caracteres alfanumï¿½ricos
+%   N - nï¿½mero de repeticoes de cada caracter
+% parï¿½metros de saï¿½da
 %   dicionario - o dicionario de codificacao
 %===================================
 dicionario='';

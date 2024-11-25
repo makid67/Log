@@ -1,39 +1,39 @@
 %===================================
-% CEFET/RJ - CAMPUS PETRÓPOLIS
-% GRADUAÇÃO EM ENGENHARIA DE COMPUTAÇÃO
-% GCOM1001PE - Introdução à Engenharia
-% PROF. RAFAEL SARAIVA CAMPOS
+% CEFET/RJ - CAMPUS PETRï¿½POLIS
+% GRADUAï¿½ï¿½O EM ENGENHARIA DE COMPUTAï¿½ï¿½O
+% GCOM1001PE - Introduï¿½ï¿½o ï¿½ Engenharia
+% PROF. RAFAEL SARAIVA SubÃ¡reaS
 % SEMESTRE 2022/1 
 %===================================
-% Exemplo de aplicação #4: integração numérica
+% Exemplo de aplicaï¿½ï¿½o #4: integraï¿½ï¿½o numï¿½rica
 %===================================
 
-clearvars; % limpa a memória
+clearvars; % limpa a memï¿½ria
 clc; % limpa a tela
-close all; % fecha todas as janelas gráficas que por acaso estejam abertas
+close all; % fecha todas as janelas grï¿½ficas que por acaso estejam abertas
 
-% define function handler para a função escolhida
+% define function handler para a funï¿½ï¿½o escolhida
 f=@(x)(2*sin(3*x).*(x-1).^2);
 
-% extremo inferior do intervalo de integração
+% extremo inferior do intervalo de integraï¿½ï¿½o
 a=0;
 
-% extremo superior do intervalo de integração
+% extremo superior do intervalo de integraï¿½ï¿½o
 b=2;
 
-% número de subintervalos
+% nï¿½mero de subintervalos
 n=30;
 
-% largura dos retângulos
+% largura dos retï¿½ngulos
 dx=(b-a)/n;
 
-% coordenada x do vértice esquerdo de cada retângulo
+% coordenada x do vï¿½rtice esquerdo de cada retï¿½ngulo
 xl=a:dx:b-dx;
 
-% somatório das áreas dos n retângulos
+% somatï¿½rio das ï¿½reas dos n retï¿½ngulos
 A=sum(abs(f(xl))*dx);
 
-% área da região entre a curva e o eixo x usando a função built-in quad
+% ï¿½rea da regiï¿½o entre a curva e o eixo x usando a funï¿½ï¿½o built-in quad
 I=quad(@(x)(abs(f(x))),a,b);
 
 for i=1:n
@@ -41,7 +41,7 @@ for i=1:n
   hold on;
 end;  
 
-% plota o gráfico da função f entre a e b
+% plota o grï¿½fico da funï¿½ï¿½o f entre a e b
 s=a:0.01:b;
 plot(s,f(s),'LineWidth',2,'Color','k');
 grid on;

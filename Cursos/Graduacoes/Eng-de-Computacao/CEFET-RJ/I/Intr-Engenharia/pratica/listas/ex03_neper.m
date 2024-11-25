@@ -1,60 +1,60 @@
 %===================================
-% CEFET/RJ - CAMPUS PETRÓPOLIS
-% GRADUAÇÃO EM ENGENHARIA DE COMPUTAÇÃO
-% GCOM1001PE - Introdução à Engenharia
-% PROF. RAFAEL SARAIVA CAMPOS
+% CEFET/RJ - CAMPUS PETRï¿½POLIS
+% GRADUAï¿½ï¿½O EM ENGENHARIA DE COMPUTAï¿½ï¿½O
+% GCOM1001PE - Introduï¿½ï¿½o ï¿½ Engenharia
+% PROF. RAFAEL SARAIVA SubÃ¡reaS
 % SEMESTRE 2022/1 
 %===================================
-% Exemplo de aplicação #3: calculando uma aprox. p/a constante de Neper
+% Exemplo de aplicaï¿½ï¿½o #3: calculando uma aprox. p/a constante de Neper
 %===================================
 clearvars; clc; close all;
 
 M0=input('Investimento inicial: R$ ');
-disp('Período de aplicação: 1 ano');
+disp('Perï¿½odo de aplicaï¿½ï¿½o: 1 ano');
 
-% para obter uma aproximação para a constante de Neper, faça R=100%
-% para avaliar a qualidade da aproximação, compare com valor de exp(1)
+% para obter uma aproximaï¿½ï¿½o para a constante de Neper, faï¿½a R=100%
+% para avaliar a qualidade da aproximaï¿½ï¿½o, compare com valor de exp(1)
 R=input('Rentabilidade anual(%): ')/100;
 
 disp(strcat('Montante final: R$ ',num2str(M0*(1+R))));
 
 disp(' '); N=2;
-input('E se o banco remunerar a aplicação semestralmente?');
-disp(strcat('Períodos de remuneração em 1 ano:',num2str(N)));
-disp(strcat('Rentabilidade por período de remuneração(%):',num2str(100*R/N)));
+input('E se o banco remunerar a aplicaï¿½ï¿½o semestralmente?');
+disp(strcat('Perï¿½odos de remuneraï¿½ï¿½o em 1 ano:',num2str(N)));
+disp(strcat('Rentabilidade por perï¿½odo de remuneraï¿½ï¿½o(%):',num2str(100*R/N)));
 disp(strcat('Montante final: R$ ',num2str(M0*(1+R/N)^N,'%.2f')));
 
 disp(' '); N=4;
-input('E se o banco remunerar a aplicação trimestralmente?');
-disp(strcat('Períodos de remuneração em 1 ano:',num2str(N)));
-disp(strcat('Rentabilidade por período de remuneração(%):',num2str(100*R/N)));
+input('E se o banco remunerar a aplicaï¿½ï¿½o trimestralmente?');
+disp(strcat('Perï¿½odos de remuneraï¿½ï¿½o em 1 ano:',num2str(N)));
+disp(strcat('Rentabilidade por perï¿½odo de remuneraï¿½ï¿½o(%):',num2str(100*R/N)));
 disp(strcat('Montante final: R$ ',num2str(M0*(1+R/N)^N,'%.2f')));
 
 disp(' '); N=12;
-input('E se o banco remunerar a aplicação mensalmente?');
-disp(strcat('Períodos de remuneração em 1 ano:',num2str(N)));
-disp(strcat('Rentabilidade por período de remuneração(%):',num2str(100*R/N)));
+input('E se o banco remunerar a aplicaï¿½ï¿½o mensalmente?');
+disp(strcat('Perï¿½odos de remuneraï¿½ï¿½o em 1 ano:',num2str(N)));
+disp(strcat('Rentabilidade por perï¿½odo de remuneraï¿½ï¿½o(%):',num2str(100*R/N)));
 disp(strcat('Montante final: R$ ',num2str(M0*(1+R/N)^N,'%.2f')));
 
 disp(' '); N=365;
-input('E se o banco remunerar a aplicação diariamente?');
-disp(strcat('Períodos de remuneração em 1 ano:',num2str(N)));
-disp(strcat('Rentabilidade por período de remuneração(%):',num2str(100*R/N)));
+input('E se o banco remunerar a aplicaï¿½ï¿½o diariamente?');
+disp(strcat('Perï¿½odos de remuneraï¿½ï¿½o em 1 ano:',num2str(N)));
+disp(strcat('Rentabilidade por perï¿½odo de remuneraï¿½ï¿½o(%):',num2str(100*R/N)));
 disp(strcat('Montante final: R$ ',num2str(M0*(1+R/N)^N,'%.2f')));
 
 disp(' '); N=365*24;
-input('E se o banco remunerar a aplicação de hora em hora?');
-disp(strcat('Períodos de remuneração em 1 ano:',num2str(N)));
-disp(strcat('Rentabilidade por período de remuneração(%):',num2str(100*R/N)));
+input('E se o banco remunerar a aplicaï¿½ï¿½o de hora em hora?');
+disp(strcat('Perï¿½odos de remuneraï¿½ï¿½o em 1 ano:',num2str(N)));
+disp(strcat('Rentabilidade por perï¿½odo de remuneraï¿½ï¿½o(%):',num2str(100*R/N)));
 disp(strcat('Montante final: R$ ',num2str(M0*(1+R/N)^N,'%.2f')));
 
 disp(' '); N=365*24*60;
-input('E se o banco remunerar a aplicação minuto a minuto?');
-disp(strcat('Períodos de remuneração em 1 ano:',num2str(N)));
-disp(strcat('Rentabilidade por período de remuneração(%):',num2str(100*R/N)));
+input('E se o banco remunerar a aplicaï¿½ï¿½o minuto a minuto?');
+disp(strcat('Perï¿½odos de remuneraï¿½ï¿½o em 1 ano:',num2str(N)));
+disp(strcat('Rentabilidade por perï¿½odo de remuneraï¿½ï¿½o(%):',num2str(100*R/N)));
 disp(strcat('Montante final: R$ ',num2str(M0*(1+R/N)^N,'%.2f')));
 
-% plota o gráfico
+% plota o grï¿½fico
 f=@(R,x)((1+R./x).^x);
 x=1:500;
 plot(x,f(R,x),'b');
@@ -63,6 +63,6 @@ line([min(x) max(x)],[exp(R) exp(R)],'Color','r','LineStyle','--');
 grid on;
 xlim([min(x) max(x)]);
 set(gca,'FontSize',18);
-xlabel('Número de períodos de remuneração no intervalo considerado');
-ylabel('Montante Final (expresso em múltiplos de M0)');
+xlabel('Nï¿½mero de perï¿½odos de remuneraï¿½ï¿½o no intervalo considerado');
+ylabel('Montante Final (expresso em mï¿½ltiplos de M0)');
 title(strcat('R(%)=',num2str(100*R)));

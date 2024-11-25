@@ -1,17 +1,17 @@
 %===================================
-% CEFET/RJ - CAMPUS PETRÓPOLIS
-% GRADUAÇÃO EM ENGENHARIA DE COMPUTAÇÃO
-% GCOM1001PE - Introdução à Engenharia
-% PROF. RAFAEL SARAIVA CAMPOS
+% CEFET/RJ - CAMPUS PETRï¿½POLIS
+% GRADUAï¿½ï¿½O EM ENGENHARIA DE COMPUTAï¿½ï¿½O
+% GCOM1001PE - Introduï¿½ï¿½o ï¿½ Engenharia
+% PROF. RAFAEL SARAIVA SubÃ¡reaS
 % SEMESTRE 2022/1 
 %===================================
-% Exemplo de aplicação #5: criptografia simples (cifra do livro)
+% Exemplo de aplicaï¿½ï¿½o #5: criptografia simples (cifra do livro)
 %===================================
 clearvars; close all; clc;
 
 alfabeto = ['a':'z','A':'Z','0':'9',' ',',','.',':','-'];
 
-% número de repeticoes de cada caracter do alfabeto
+% nï¿½mero de repeticoes de cada caracter do alfabeto
 N = 100; 
 
 % cria o dicionario

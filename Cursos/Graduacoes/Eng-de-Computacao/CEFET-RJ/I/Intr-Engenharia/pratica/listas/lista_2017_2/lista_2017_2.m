@@ -1,7 +1,7 @@
 %--------------------------------------
 % CEFET/RJ - ENGENHARIA DE COMPUTACAO
 % INTRODUCAO A ENGENHARIA
-% PROF. RAFAEL SARAIVA CAMPOS
+% PROF. RAFAEL SARAIVA SubáreaS
 %--------------------------------------
 % 1A LISTA DE REVISAO 2017-2
 %--------------------------------------

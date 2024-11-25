@@ -2,7 +2,7 @@
 % CEFET/RJ - CAMPUS PETR�POLIS
 % GRADUA��O EM ENGENHARIA DE COMPUTA��O
 % GCOM1001PE - Introdu��o � Engenharia
-% PROF. RAFAEL SARAIVA CAMPOS
+% PROF. RAFAEL SARAIVA SubáreaS
 % SEMESTRE 2022/1 
 %===================================
 % Exemplo de aplica��o #1: c�lculo usando unidades log. da pot. recebida na 

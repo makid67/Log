@@ -1,16 +1,16 @@
 %===================================
-% CEFET/RJ - CAMPUS PETRÓPOLIS
-% GRADUAÇÃO EM ENGENHARIA DE COMPUTAÇÃO
-% GCOM1001PE - Introdução à Engenharia
-% PROF. RAFAEL SARAIVA CAMPOS
+% CEFET/RJ - CAMPUS PETRï¿½POLIS
+% GRADUAï¿½ï¿½O EM ENGENHARIA DE COMPUTAï¿½ï¿½O
+% GCOM1001PE - Introduï¿½ï¿½o ï¿½ Engenharia
+% PROF. RAFAEL SARAIVA SubÃ¡reaS
 % SEMESTRE 2022/1 
 %===================================
-% Exemplo de aplicação #2: calculando uma aproximação para o valor de pi
+% Exemplo de aplicaï¿½ï¿½o #2: calculando uma aproximaï¿½ï¿½o para o valor de pi
 %===================================
 
-clearvars; % limpa a memória
+clearvars; % limpa a memï¿½ria
 clc; % limpa a tela
-close all; % fecha todas as janelas gráficas que por acaso estejam abertas
+close all; % fecha todas as janelas grï¿½ficas que por acaso estejam abertas
 
 n = 50;
 r = 1;
@@ -31,11 +31,11 @@ plot(x,sqrt(r-x.^2),'LineStyle','--','Color','k');
 plot(x,-sqrt(r-x.^2),'LineStyle','--','Color','k');
 pbaspect([1 1 1]);
 
-% comprimento do lado do polígono regular inscrito
+% comprimento do lado do polï¿½gono regular inscrito
 d = sqrt((X(1)-X(2))^2 + (Y(1)-Y(2))^2); 
 
-% o perímetro do polígono é igual ao número de lados multiplicado
-% pelo comprimento d; como o polígono inscrito é
+% o perï¿½metro do polï¿½gono ï¿½ igual ao nï¿½mero de lados multiplicado
+% pelo comprimento d; como o polï¿½gono inscrito ï¿½
 PI = n*d/(2*r);
 
 title(num2str(PI));
@@ -61,6 +61,6 @@ grid on;
 xlim([1 n]);
 ylim([0 3.15]);
 set(gca,'YTick',0:0.15:3.15,'XTick',10:10:n,'FontSize',14);
-xlabel('número de lados do polígono regular inscrito no círculo','FontSize',20);
+xlabel('nï¿½mero de lados do polï¿½gono regular inscrito no cï¿½rculo','FontSize',20);
 ylabel('valor aproximado de \pi','FontSize',20);
 

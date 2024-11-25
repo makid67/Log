@@ -1,20 +1,20 @@
 function decodificaMsg(dicionario,inputFile,outputFile)
 %===================================
-% CEFET/RJ - CAMPUS PETRÓPOLIS
-% GRADUAÇÃO EM ENGENHARIA DE COMPUTAÇÃO
-% GCOM1001PE - Introdução à Engenharia
-% PROF. RAFAEL SARAIVA CAMPOS
+% CEFET/RJ - CAMPUS PETRï¿½POLIS
+% GRADUAï¿½ï¿½O EM ENGENHARIA DE COMPUTAï¿½ï¿½O
+% GCOM1001PE - Introduï¿½ï¿½o ï¿½ Engenharia
+% PROF. RAFAEL SARAIVA SubÃ¡reaS
 % SEMESTRE 2022/1 
 %===================================
-% Exemplo de aplicação #4: criptografia simples (cifra do livro)
+% Exemplo de aplicaï¿½ï¿½o #4: criptografia simples (cifra do livro)
 %===================================
-% função decodificaMsg
-% parâmetros de entrada
+% funï¿½ï¿½o decodificaMsg
+% parï¿½metros de entrada
 %   dicionario - o dicionario criado com a funcao criaDicionario
 %   inputFile - nome do arquivo com a mensagem a ser codificada
-%   outputFile - nome do arquivo de saída para a mensagem codificada
+%   outputFile - nome do arquivo de saï¿½da para a mensagem codificada
 %===================================
-% número de dígitos por caracter na codificacao
+% nï¿½mero de dï¿½gitos por caracter na codificacao
 DIG = length(num2str(length(dicionario))); 
 
 fin = fopen(inputFile,'r');
@@ -28,7 +28,7 @@ if(fin>0)
       for i=1:DIG:length(cmsg)
         rmsg = cat(2,rmsg,dicionario(str2num(cmsg(i:i+DIG-1))));
       end;  
-      % escreve linha decodificada no arquivo de saída
+      % escreve linha decodificada no arquivo de saï¿½da
       fputs(fout,rmsg);  
       fputs(fout,newline);      
     end;  

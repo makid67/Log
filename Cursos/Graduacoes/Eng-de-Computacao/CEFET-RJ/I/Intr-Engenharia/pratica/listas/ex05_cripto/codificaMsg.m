@@ -1,20 +1,20 @@
 function codificaMsg(dicionario,inputFile,outputFile)
 %===================================
-% CEFET/RJ - CAMPUS PETRÓPOLIS
-% GRADUAÇÃO EM ENGENHARIA DE COMPUTAÇÃO
-% GCOM1001PE - Introdução à Engenharia
-% PROF. RAFAEL SARAIVA CAMPOS
+% CEFET/RJ - CAMPUS PETRï¿½POLIS
+% GRADUAï¿½ï¿½O EM ENGENHARIA DE COMPUTAï¿½ï¿½O
+% GCOM1001PE - Introduï¿½ï¿½o ï¿½ Engenharia
+% PROF. RAFAEL SARAIVA SubÃ¡reaS
 % SEMESTRE 2022/1 
 %===================================
-% Exemplo de aplicação #4: criptografia simples (cifra do livro)
+% Exemplo de aplicaï¿½ï¿½o #4: criptografia simples (cifra do livro)
 %===================================
-% função codificaMsg
-% parâmetros de entrada
+% funï¿½ï¿½o codificaMsg
+% parï¿½metros de entrada
 %   dicionario - o dicionario criado com a funcao criaDicionario
 %   inputFile - nome do arquivo com a mensagem a ser codificada
-%   outputFile - nome do arquivo de saída para a mensgaem codificada
+%   outputFile - nome do arquivo de saï¿½da para a mensgaem codificada
 %===================================
-% número de dígitos por caracter na codificacao
+% nï¿½mero de dï¿½gitos por caracter na codificacao
 DIG = length(num2str(length(dicionario))); 
 FORMAT = strcat('%0',num2str(DIG),'i');
 
@@ -34,7 +34,7 @@ if(fin>0)
         % seleciona a 1a posicao para a codificacao
         cmsg = cat(2,cmsg,num2str(indices(AUX(1)),eval('FORMAT')));
       end;  
-      % escreve linha codificada no arquivo de saída
+      % escreve linha codificada no arquivo de saï¿½da
       fdisp(fout,cmsg);  
     end;
   else

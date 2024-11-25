@@ -1,7 +1,7 @@
 CEFET/RJ - CAMPUS PETRÓPOLIS
 GRADUAÇÃO EM <img src="../../../../../Conhecimentos/Tecnologias/Engenharia/Eng-Computacao/eng-de-comp-emoji.png" width="100px" height="100px"> <img src="../../../../../Conhecimentos/Tecnologias/Engenharia/Eng-Computacao/eng-de-comp-emoji.png" width="100px" height="100px"> Eng. de Computação
 GCOM1001PE - Introdução à Engenharia
-PROF. RAFAEL SARAIVA CAMPOS
+PROF. RAFAEL SARAIVA SubáreaS
 SEMESTRE 2023/1 
 
 1) Escreva uma função que imprima as primeiras N linhas do triângulo de Pascal.
