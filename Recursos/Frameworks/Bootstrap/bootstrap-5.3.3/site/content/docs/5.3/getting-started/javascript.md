@@ -110,7 +110,7 @@ To fix this, you can use an `importmap` to resolve the arbitrary module names to
           
           <a class="nav-link active" style="color: whitesmoke;"  href="https://www.notion.so/agendas-53250b54e3a24c53888e20edddb2a073" target="_blank"> <img src="./Agendas/agendas-menu.png" width="25" height="25"> Agendas</a>
           
-          <a class="nav-link active" style="color:  whitesmoke;" href="../Cursos/cursos.html"><img src="./Cursos/cursos-menu.png" width="25" height="25"> Cursos</a>
+          <a class="nav-link active" style="color:  whitesmoke;" href="../Estudos/estudos.html"><img src="./Estudos/estudos-menu.png" width="25" height="25"> Estudos</a>
           
           <a class="nav-link active" style="color:  whitesmoke;" href="../Bibliotecas/bibliotecas.html"><img src="./Bibliotecas/bibliotecas-menu.png" width="25" height="25"> Bibliotecas</a>
 
