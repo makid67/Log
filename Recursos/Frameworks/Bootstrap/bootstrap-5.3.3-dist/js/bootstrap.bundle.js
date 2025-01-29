@@ -2447,7 +2447,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <div class="navbar-nav">
           
-          <a class="nav-link active" style="color: whitesmoke;"  href="https://www.notion.so/agendas-53250b54e3a24c53888e20edddb2a073" target="_blank"> <img src="./Agendas/agendas-menu.png" width="25" height="25"> Agendas</a>
+          <a class="nav-link active" style="color: whitesmoke;"  href="../../Agendas/agendas.html" target="_blank"> <img src="./Agendas/agendas-menu.png" width="25" height="25"> Agendas</a>
           
           <a class="nav-link active" style="color:  whitesmoke;" href="../Bibliotecas/bibliotecas.html"><img src="./Bibliotecas/bibliotecas-menu.png" width="25" height="25"> Bibliotecas</a>
 
