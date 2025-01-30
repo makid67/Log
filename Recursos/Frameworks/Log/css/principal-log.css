@@ -74,8 +74,39 @@ textarea {
 
 
 
+/* I.A DeepSeek (OpenSource) Hiperlinkada */
+/* Estilo para o botão fixo */
+.deepseek-button {
+  position: fixed; /* Fixa o botão na tela */
+  bottom: 20px; /* Distância do fundo */
+  right: 20px; /* Distância da direita */
+  background-color: transparent; /* Fundo transparente */
+  border: none; /* Sem borda */
+  cursor: pointer; /* Cursor de ponteiro */
+  padding: 10px; /* Espaçamento interno */
+  border-radius: 50%; /* Botão redondo */
+  transition: background-color 0.3s ease; /* Transição suave */
+  z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+}
 
+/* Efeito ao passar o mouse */
+.deepseek-button:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Fundo levemente escurecido */
+}
 
+/* Estilo para o ícone */
+.deepseek-icon {
+  width: 45px; /* Tamanho do ícone */
+  display: block; /* Garante que a imagem seja exibida corretamente */
+}
+
+/* Estilo de exemplo para o conteúdo da página */
+.content {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
 
 
 
