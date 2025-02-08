@@ -76,7 +76,7 @@ textarea {
 
 /* I.A DeepSeek (OpenSource) Hiperlinkada */
 /* Estilo para o botão fixo */
-.deepseek-button {
+.ia-button {
   position: fixed; /* Fixa o botão na tela */
   bottom: 20px; /* Distância do fundo */
   right: 20px; /* Distância da direita */
@@ -90,12 +90,12 @@ textarea {
 }
 
 /* Efeito ao passar o mouse */
-.deepseek-button:hover {
+.ia-button:hover {
   background-color: rgba(0, 0, 0, 0.1); /* Fundo levemente escurecido */
 }
 
 /* Estilo para o ícone */
-.deepseek-icon {
+.ia-icon {
   width: 45px; /* Tamanho do ícone */
   display: block; /* Garante que a imagem seja exibida corretamente */
 }
