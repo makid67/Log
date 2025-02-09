@@ -5,4 +5,3 @@
 
  <h4>! Aceito sugestões
 
- <h4>! Todo dia 1º devo por este projeto em BackUp no TeraBox 1TB</h4>
