@@ -131,17 +131,17 @@ Once your CSS is compiled, you can include it in your HTML files. Inside your `i
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <div class="navbar-nav">
           
-          <a class="nav-link active" style="color: whitesmoke;"  href="../../Agendas/agendas.html" target="_blank"> <img src="./Agendas/agendas-menu.png" width="25" height="25"> Agendas</a>
+          <a class="nav-link active" style="color: whitesmoke;"  href="../../Agendas/agendas.html" target="_blank"> <img src="./Agendas/agendas-menu.png" height="30"> Agendas</a>
           
-          <a class="nav-link active" style="color:  whitesmoke;" href="../Bibliotecas/bibliotecas.html"><img src="./Bibliotecas/bibliotecas-menu.png" width="25" height="25"> Bibliotecas</a>
+          <a class="nav-link active" style="color:  whitesmoke;" href="../Bibliotecas/bibliotecas.html"><img src="./Bibliotecas/bibliotecas-menu.png" height="30"> Bibliotecas</a>
 
-          <a class="nav-link active" style="color:  whitesmoke;" href="../Eventos/eventos-menu.png" target="_blank"><img src="./Eventos/eveventos-menu.png" width="25" height="25"> Eventos</a>
+          <a class="nav-link active" style="color:  whitesmoke;" href="../Atividades/eventos-menu.png" target="_blank"><img src="./Atividades/eveventos-menu.png" height="30"> Atividades</a>
           
-          <a class="nav-link active" style="color:  whitesmoke;" href="./Projetos/projetos.html" target="_blank"><img src="./Projetos/projetos-menu.png" width="25" height="25"> Projetos</a>
+          <a class="nav-link active" style="color:  whitesmoke;" href="./Projetos/projetos.html" target="_blank"><img src="./Projetos/projetos-menu.png" height="30"> Projetos</a>
           
-          <a class="nav-link active" style="color:  whitesmoke;" href="../Trabalhos/trabalhos.html"><img src="./Trabalhos/ttrabalhos-menu.png" width="25" height="25"> Trabalhos</a>
+          <a class="nav-link active" style="color:  whitesmoke;" href="../Trabalhos/trabalhos.html"><img src="./Trabalhos/ttrabalhos-menu.png" height="30"> Trabalhos</a>
           
-          <a class="nav-link active" style="color:  whitesmoke;" href="../Recursos/recursos.html"><img src="./Recursos/recursos-menu.png" width="25" height="25"> Recursos</a>
+          <a class="nav-link active" style="color:  whitesmoke;" href="../Recursos/recursos.html"><img src="./Recursos/recursos-menu.png" height="30"> Recursos</a>
         </div>
       </div>
     </div>
@@ -159,19 +159,19 @@ Once your CSS is compiled, you can include it in your HTML files. Inside your `i
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <div class="navbar-nav">
           
-          <a class="nav-link active" style="color: whitesmoke;"  href="../../Agendas/agendas.html" target="_blank"> <img src="./Agendas/agendas-menu.png" width="25" height="25"> Agendas</a>
+          <a class="nav-link active" style="color: whitesmoke;"  href="../../Agendas/agendas.html" target="_blank"> <img src="./Agendas/agendas-menu.png" height="30"> Agendas</a>
           
-          <a class="nav-link active" style="color:  whitesmoke;" href="../Estudos/estudos.html"><img src="./Estudos/estudos-menu.png" width="25" height="25"> Estudos</a>
+          <a class="nav-link active" style="color:  whitesmoke;" href="../Estudos/estudos.html"><img src="./Estudos/estudos-menu.png" height="30"> Estudos</a>
           
-          <a class="nav-link active" style="color:  whitesmoke;" href="../Bibliotecas/bibliotecas.html"><img src="./Bibliotecas/bibliotecas-menu.png" width="25" height="25"> Bibliotecas</a>
+          <a class="nav-link active" style="color:  whitesmoke;" href="../Bibliotecas/bibliotecas.html"><img src="./Bibliotecas/bibliotecas-menu.png" height="30"> Bibliotecas</a>
 
-          <a class="nav-link active" style="color:  whitesmoke;" href="../Eventos/eventos-menu.png" target="_blank"><img src="./Eventos/eveventos-menu.png" width="25" height="25"> Eventos</a>
+          <a class="nav-link active" style="color:  whitesmoke;" href="../Atividades/eventos-menu.png" target="_blank"><img src="./Atividades/eveventos-menu.png" height="30"> Atividades</a>
           
-          <a class="nav-link active" style="color:  whitesmoke;" href="./Projetos/projetos.html" target="_blank"><img src="./Projetos/projetos-menu.png" width="25" height="25"> Projetos</a>
+          <a class="nav-link active" style="color:  whitesmoke;" href="./Projetos/projetos.html" target="_blank"><img src="./Projetos/projetos-menu.png" height="30"> Projetos</a>
           
-          <a class="nav-link active" style="color:  whitesmoke;" href="../Trabalhos/trabalhos.html"><img src="./Trabalhos/ttrabalhos-menu.png" width="25" height="25"> Trabalhos</a>
+          <a class="nav-link active" style="color:  whitesmoke;" href="../Trabalhos/trabalhos.html"><img src="./Trabalhos/ttrabalhos-menu.png" height="30"> Trabalhos</a>
           
-          <a class="nav-link active" style="color:  whitesmoke;" href="../Recursos/recursos.html"><img src="./Recursos/recursos-menu.png" width="25" height="25"> Recursos</a>
+          <a class="nav-link active" style="color:  whitesmoke;" href="../Recursos/recursos.html"><img src="./Recursos/recursos-menu.png" height="30"> Recursos</a>
         </div>
       </div>
     </div>
@@ -202,17 +202,17 @@ Here's an example that changes the `background-color` and `color` for the `<nav 
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <div class="navbar-nav">
           
-          <a class="nav-link active" style="color: whitesmoke;"  href="../../Agendas/agendas.html" target="_blank"> <img src="./Agendas/agendas-menu.png" width="25" height="25"> Agendas</a>
+          <a class="nav-link active" style="color: whitesmoke;"  href="../../Agendas/agendas.html" target="_blank"> <img src="./Agendas/agendas-menu.png" height="30"> Agendas</a>
           
-          <a class="nav-link active" style="color:  whitesmoke;" href="../Bibliotecas/bibliotecas.html"><img src="./Bibliotecas/bibliotecas-menu.png" width="25" height="25"> Bibliotecas</a>
+          <a class="nav-link active" style="color:  whitesmoke;" href="../Bibliotecas/bibliotecas.html"><img src="./Bibliotecas/bibliotecas-menu.png" height="30"> Bibliotecas</a>
 
-          <a class="nav-link active" style="color:  whitesmoke;" href="../Eventos/eventos-menu.png" target="_blank"><img src="./Eventos/eveventos-menu.png" width="25" height="25"> Eventos</a>
+          <a class="nav-link active" style="color:  whitesmoke;" href="../Atividades/eventos-menu.png" target="_blank"><img src="./Atividades/eveventos-menu.png" height="30"> Atividades</a>
           
-          <a class="nav-link active" style="color:  whitesmoke;" href="./Projetos/projetos.html" target="_blank"><img src="./Projetos/projetos-menu.png" width="25" height="25"> Projetos</a>
+          <a class="nav-link active" style="color:  whitesmoke;" href="./Projetos/projetos.html" target="_blank"><img src="./Projetos/projetos-menu.png" height="30"> Projetos</a>
           
-          <a class="nav-link active" style="color:  whitesmoke;" href="../Trabalhos/trabalhos.html"><img src="./Trabalhos/ttrabalhos-menu.png" width="25" height="25"> Trabalhos</a>
+          <a class="nav-link active" style="color:  whitesmoke;" href="../Trabalhos/trabalhos.html"><img src="./Trabalhos/ttrabalhos-menu.png" height="30"> Trabalhos</a>
           
-          <a class="nav-link active" style="color:  whitesmoke;" href="../Recursos/recursos.html"><img src="./Recursos/recursos-menu.png" width="25" height="25"> Recursos</a>
+          <a class="nav-link active" style="color:  whitesmoke;" href="../Recursos/recursos.html"><img src="./Recursos/recursos-menu.png" height="30"> Recursos</a>
         </div>
       </div>
     </div>
